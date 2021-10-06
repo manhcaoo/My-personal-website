@@ -1,0 +1,133 @@
+body {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #707070;
+}
+
+h1 {
+  color: #08a16a;
+  margin-top: 0px;
+  padding-top: 100px;
+  font-family: "Sacramento", cursive;
+  font-size: 90px;
+}
+
+h2 {
+  color: #08a16a;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #08a16a;
+}
+
+p {
+  line-height: 1.5;
+}
+
+hr {
+  border: dotted #d3d3d3 6px;
+  border-bottom: none;
+  width: 20%;
+  margin: 30px auto 30px auto;
+}
+
+/******************* clouds *******************/
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  left: 300px;
+  position: absolute;
+  bottom: 300px;
+}
+
+/******************* text ****************/
+.my-profile {
+  width: 15%;
+}
+
+.myprofile-description {
+  width: 30%;
+  margin: auto;
+}
+
+.intro {
+  color: #08a16a;
+  font-size: 40px;
+  font-weight: lighter;
+  line-height: 2px;
+  font-family: "Newsreader", serif;
+}
+
+.top-container {
+  margin: -10px;
+  background-color: #fff5ab;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.skill-row {
+  width: 520px;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.computer-image {
+  margin: auto 30px auto auto;
+  width: 40%;
+  float: left;
+}
+
+.chillies-image {
+  margin-right: 30px;
+  width: 40%;
+  float: right;
+}
+
+.BUTTON_JTO {
+  background: #3d94f6;
+  background-image: -webkit-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -moz-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -ms-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -o-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -webkit-gradient(to bottom, #3d94f6, #1e62d0);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: Open Sans;
+  font-size: 29px;
+  font-weight: 600;
+  padding: 34px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 0 1px 50px #000000;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_JTO:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
